@@ -1,0 +1,248 @@
+// @import "../../../node_modules/normalize-css/normalize";
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: $body-font;
+    color: $text-color;
+    // color: black;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 2;
+}
+
+main {
+    overflow: hidden;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    width: 100px;
+    border: 0;
+    border-top: 3px solid $border-color;
+    margin: 0 auto;
+    padding: 0;
+}
+
+ins {
+    background: $bg-white;
+    text-decoration: none;
+}
+
+html,
+button,
+input,
+select,
+textarea {
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+::-moz-selection {
+    background: $text-color;
+    color: $bg-white;
+    -moz-text-shadow: none;
+}
+
+::selection {
+    background: $text-color;
+    color: $bg-white;
+    -webkit-text-shadow: none;
+    text-shadow: none;
+}
+/* =============================================================================
+	 Links
+	 ========================================================================== */
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+a {
+    color: inherit;
+    outline: 0;
+    text-decoration: none;
+    transition: 0.4s;
+
+    &:hover {
+        color: $main-color;
+    }
+}
+
+p {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    color: $text-color;
+    line-height: 2;
+    font-weight: 400;
+    font-family: $body-font;
+}
+
+strong {
+    font-weight: 500;
+}
+
+picture {
+    font-size: 0;
+    display: block;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* #Typography
+  ================================================== 
+*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+
+h1 em,
+h2 em,
+h3 em,
+h4 em,
+h5 em,
+h6 em {
+    font-style: italic;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    font-weight: inherit;
+}
+
+h1,
+.h1 {
+    font-size: 30px;
+
+    @include mq($breakpoint-mobile){
+        font-size: 36px;
+    }
+}
+h2,
+.h2 {
+    font-size: 24px;
+
+    @include mq($breakpoint-mobile){
+        font-size: 42px;
+    }
+}
+h3,
+.h3 {
+    font-size: 25px;
+
+    @include mq($breakpoint-mobile){
+        font-size: 40px;
+    }
+}
+h4,
+.h4 {
+    font-size: 24px;
+    @include mq($breakpoint-mobile){
+        font-size: 36px;
+    }
+}
+h5,
+.h5 {
+    font-size: 18px;
+
+    @include mq($breakpoint-mobile){
+        font-size: 30px;
+    }
+}
+h6,
+.h6 {
+    font-size: 18px;
+
+    @include mq($breakpoint-mobile){
+        font-size: 24px;
+    }
+}
+
+.h7 {
+    font-size: 18px;
+}
+
+.h9 {
+    font-size: 16px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+//======== TITLE AND SUB TITLE ====
+//=================================
+.margin-top {
+    margin-top: $cms-margin-top;
+    @include mq($breakpoint-mobile, max){
+        margin-top: $cms-margin-top-mobile;
+    }
+}
+
+.margin-bottom {
+    margin-bottom: $cms-margin-bottom;
+    @include mq($breakpoint-mobile, max){
+        margin-bottom: $cms-margin-bottom-mobile;
+    }
+}
+
+.padding-top {
+    padding-top: $cms-padding-top;
+    @include mq($breakpoint-mobile, max){
+        padding-top: $cms-padding-top-mobile;
+    }
+}
+
+.padding-bottom {
+    padding-bottom: $cms-padding-bottom;
+    @include mq($breakpoint-mobile, max){
+        padding-bottom: $cms-padding-bottom-mobile;
+    }
+}
+
+//========= BUTTON + ICON =============
+//=====================================
+.btn {
+    font-size: 16px;
+    line-height: 1.22;
+    color: $text-color;
+}

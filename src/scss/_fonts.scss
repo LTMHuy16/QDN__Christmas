@@ -1,0 +1,26 @@
+// /**
+//  * Define font families and their font settings.
+//  * $font-family, $file-path, $file-name, $font-weight, $font-style
+//  */
+// $fonts: (
+// 	("AkzidenzGroteskBQ-BoldExt", $font-path, "AkzidenzGroteskBQ-BoldExt", normal, null),
+// 	("AkzidenzGroteskBQ-Ext", $font-path, "AkzidenzGroteskBQ-Ext", normal, null),
+// );
+
+
+// // Loop over $fonts and output the font-face rules for each using their settings.
+// @each $font-family, $file-path, $file-name, $font-weight, $font-style in $fonts {
+// 	@font-face {
+// 		font-family: $font-family;
+// 		src: url("#{$file-path}#{$file-name}.woff2") format("woff2"),
+// 			url("#{$file-path}#{$file-name}.woff") format("woff");
+
+// 		@if ($font-weight) {
+// 			font-weight: $font-weight;
+// 		}
+
+// 		@if ($font-style) {
+// 			font-style: $font-style;
+// 		}
+// 	}
+// }

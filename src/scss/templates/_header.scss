@@ -1,0 +1,31 @@
+.header {
+    background-color: $header-bg;
+    padding: 50px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__logo {
+        max-width: 260px;   
+    }
+
+    &__nav {
+        &-item {
+            padding: 0 24px;
+        }
+
+        &-link {
+            font-size: 27px;
+            line-height: 1.25;
+        }
+    }
+
+    &__list {
+        display: flex;
+    }
+
+    &__controls {
+        margin-right: 20px;
+    }
+}
+

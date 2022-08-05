@@ -1,0 +1,45 @@
+// GRID VARIABLES
+$grid-columns: 12;
+$grid-spacing: 15px;
+$grid-spacing-wide: 30px;
+$grid-max-width: 1084px;
+$grid-min-width: none;
+
+
+$breakpoint-small: 480px;
+$breakpoint-medium: 768px;
+$breakpoint-wide: 1024px;
+
+$breakpoint-mobile: 1024px;
+$breakpoint-desktop: $breakpoint-wide;
+
+
+// COLORS
+$main-color: #f8f2eb;
+$button-bg-1: #46a752;
+$button-bg-2: #ce2129;
+$header-bg: #1d1d24;
+$banner-bg: #2e728f;
+$decor-line-color: #c92d19;
+$black-color: #000000;
+
+$border-color: #eee;
+$base-color: #f8f2eb;
+
+$text-color: #f8f2eb;
+$bg-white: #fff;
+// FONT 
+$body-font: 'Truculenta', sans-serif;
+$title-font: $body-font;
+$second-font: 'Truculenta', sans-serif;
+
+// CMS PADDING, MARGIN
+$cms-margin-top: 100px;
+$cms-margin-bottom: 100px;
+$cms-padding-top: 100px;
+$cms-padding-bottom: 100px;
+
+$cms-margin-top-mobile: 50px;
+$cms-margin-bottom-mobile: 50px;
+$cms-padding-top-mobile: 50px;
+$cms-padding-bottom-mobile: 50px;
