@@ -34,15 +34,17 @@
                 <li class="header__nav-item">
                     <a href="#" class="header__nav-link">ARTISTS</a>
                 </li>
-                <li class="header__nav-subcribe">
-                    <button class="btn btn--second">
-                        <a href="#">SUBCRIBE NEWLETTERS</a>
-                    </button>
-                </li>
             </ul>
         </nav>
         <div class="header__controls">
-            <button class="header__languages">
+            <button class="btn btn--second">
+                <a href="#">SUBCRIBE TO NEWLETTERS</a>
+            </button>
+            <button class="btn btn--primary btn--language">
+                <span>Languages</span>
+                <picture>
+                    <img src="dist/img/arrow-down-icon.svg" alt="">
+                </picture>
                 <ul class="header__languages-list">
                     <li>Arabic</li>
                     <li>Arabic</li>
@@ -52,12 +54,12 @@
             </button>
             <button class="header__search">
                 <picture>
-                    <img src="dist/img/header__search.svg" alt="">
-                </picture>  
+                    <img src="dist/img/search-icon.png" alt="">
+                </picture>
             </button>
             <div class="header__decor">
                 <picture>
-                    <img src="dist/img/footer__decor.svg" alt="">
+                    <img src="dist/img/decor-star.png" alt="">
                 </picture>
             </div>
         </div>

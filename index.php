@@ -14,6 +14,17 @@
 	include_once( './template-parts/videos.php' ); 
 	
 	include_once( './template-parts/countdown.php' ); 
+
+	include_once( './template-parts/feature.php' ); 
+
+	include_once( './template-parts/lyrics.php' ); 
+
+	include_once( './template-parts/new-chrismas.php' ); 
+
+	include_once( './template-parts/favorite.php' ); 
+
+	include_once( './template-parts/artists.php' ); 
+
 	
 
 	// Footer

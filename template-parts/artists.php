@@ -19,7 +19,7 @@
                 <div class="artists__card">
                     <div class="artists__img">
                         <picture>
-                            <img src="dist/img/artist__1.png" alt="">
+                            <img src="dist/img/artist__2.png" alt="">
                         </picture>
                     </div>
                     <h3 class="artists__name">Johnny Cash</h3>
@@ -32,7 +32,7 @@
                 <div class="artists__card">
                     <div class="artists__img">
                         <picture>
-                            <img src="dist/img/artist__1.png" alt="">
+                            <img src="dist/img/artist__3.png" alt="">
                         </picture>
                     </div>
                     <h3 class="artists__name">Mariah Carey</h3>
@@ -45,7 +45,7 @@
                 <div class="artists__card">
                     <div class="artists__img">
                         <picture>
-                            <img src="dist/img/artist__1.png" alt="">
+                            <img src="dist/img/artist__4.png" alt="">
                         </picture>
                     </div>
                     <h3 class="artists__name">Kenny G</h3>
@@ -58,7 +58,7 @@
                 <div class="artists__card">
                     <div class="artists__img">
                         <picture>
-                            <img src="dist/img/artist__1.png" alt="">
+                            <img src="dist/img/artist__5.png" alt="">
                         </picture>
                     </div>
                     <h3 class="artists__name">Tonney Bennett</h3>
@@ -71,7 +71,7 @@
                 <div class="artists__card">
                     <div class="artists__img">
                         <picture>
-                            <img src="dist/img/artist__1.png" alt="">
+                            <img src="dist/img/artist__6.png" alt="">
                         </picture>
                     </div>
                     <h3 class="artists__name">Pentatonix</h3>
@@ -84,7 +84,7 @@
                 <div class="artists__card">
                     <div class="artists__img">
                         <picture>
-                            <img src="dist/img/artist__1.png" alt="">
+                            <img src="dist/img/artist__7.png" alt="">
                         </picture>
                     </div>
                     <h3 class="artists__name">Andy Williams</h3>
@@ -97,7 +97,7 @@
                 <div class="artists__card">
                     <div class="artists__img">
                         <picture>
-                            <img src="dist/img/artist__1.png" alt="">
+                            <img src="dist/img/artist__8.png" alt="">
                         </picture>
                     </div>
                     <h3 class="artists__name">Andy Williams</h3>
